@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Panel de Soporte TI</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f4f6f9; text-align: center; padding: 50px; }
+        .card { background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: inline-block; max-width: 400px; }
+        button { background-color: #007bff; color: white; border: none; padding: 10px 20px; font-size: 16px; border-radius: 5px; cursor: pointer; margin-top: 15px; }
+        button:hover { background-color: #0056b3; }
+        #resultado { margin-top: 20px; font-weight: bold; font-size: 18px; }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h2>🛠️ Panel de Diagnóstico TI</h2>
+        <p>Presiona el botón para ejecutar el script de verificación del estado del servidor de la empresa.</p>
+        <button id="btnVerificar">Correr Diagnóstico</button>
+        <div id="resultado">Esperando acción...</div>
+    </div>
+
+    <!-- Conexión con tu lógica de JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>
