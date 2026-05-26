@@ -1,4 +1,4 @@
-# Sistema de Gestión de Inventario TI - Por [Tu Nombre]
+# Sistema de Gestión de Inventario TI - Por [Marvin Ayala]
 # Demuestra: Programación Orientada a Objetos, Diccionarios y Control de Flujo.
 
 class Producto:
